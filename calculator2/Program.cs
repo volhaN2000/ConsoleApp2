@@ -19,6 +19,8 @@ namespace calc
             }
             var result=Calculator.Calculate(expression);
             Console.WriteLine("{0}={1}",expression,(result.Result));
+            Console.WriteLine("demo");
+               Console.WriteLine("OMG it works");
             Console.ReadKey();
 
         }
